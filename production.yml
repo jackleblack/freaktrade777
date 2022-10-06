@@ -1,9 +1,9 @@
 ---
-version: '3'
+version: "3"
 services:
   live:
-    image: joaoraf/freqtrade:master
-    env_file: 
+    image: jackleblack/freaktrade777:master
+    env_file:
       - .env
     restart: unless-stopped
     volumes:
